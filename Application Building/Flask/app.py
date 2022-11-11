@@ -11,8 +11,7 @@ def home():
 @app.route('/predict')
 def index():
     return render_template('index.html')
-def img1():
-    return render_template('img.jpg')
+
 
 
 @app.route('/data_predict', methods=['post','get'])
